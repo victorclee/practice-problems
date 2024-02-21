@@ -39,3 +39,12 @@ The key's randomart image is:
 +----[SHA256]-----+
 ┌─[victor@victors-MacBook-Pro] - [~/Desktop/practice-problems] - [Wed Feb 21, 12:49]
 └─[$] <git:(main)> cat ~/.ssh/id_rsa.pub | pbcopy
+
+SSH Ports 
+https://www.ssh.com/academy/ssh/port
+
+What is a computer port
+https://www.cloudflare.com/learning/network-layer/what-is-a-computer-port/
+
+What is the OSI model?
+https://www.google.com/search?q=osi+model&oq=osi+mod&gs_lcrp=EgZjaHJvbWUqBwgAEAAYgAQyBwgAEAAYgAQyBggBEEUYOTIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABKgCALACAA&sourceid=chrome&ie=UTF-8#vhid=Sl3_IoXEjPm9QM&vssid=l
