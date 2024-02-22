@@ -17,3 +17,5 @@ end
 p sum
 # 233168 passed
 # https://projecteuler.net/thread=1;page=9#last
+
+# This one seemed simple, but still took an hour. I even needed a refresher on how to write a simple while loop 
