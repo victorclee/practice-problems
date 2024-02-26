@@ -4,3 +4,24 @@
 
 # By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms.
 
+fibbonacci_numbers = [1,2]
+next_number = 0
+
+while next_number < 4000000 do
+  index_last = fibbonacci_numbers.count - 1
+  index_second_to_last = index_last - 1
+
+  next_number = fibbonacci_numbers[index_last] + fibbonacci_numbers[index_second_to_last]
+
+  fibbonacci_numbers << next_number
+end
+
+sum = 0 
+
+fibbonacci_numbers.each do |num|
+  if num < 4000000 && num % 2 == 0
+    sum += num
+  end
+end
+
+p sum
