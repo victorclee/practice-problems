@@ -48,3 +48,12 @@ https://www.cloudflare.com/learning/network-layer/what-is-a-computer-port/
 
 What is the OSI model?
 https://www.google.com/search?q=osi+model&oq=osi+mod&gs_lcrp=EgZjaHJvbWUqBwgAEAAYgAQyBwgAEAAYgAQyBggBEEUYOTIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABKgCALACAA&sourceid=chrome&ie=UTF-8#vhid=Sl3_IoXEjPm9QM&vssid=l
+
+
+
+03/01/2024
+What's the difference between function and method?
+
+Functional vs procedural
+
+For next week, refactor existing solutions into classes. Make them readable. Continue with new problems. 
