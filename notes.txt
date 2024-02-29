@@ -56,4 +56,6 @@ What's the difference between function and method?
 
 Functional vs procedural
 
+https://stackoverflow.com/questions/3432085/how-to-understand-the-output-of-time-command
+
 For next week, refactor existing solutions into classes. Make them readable. Continue with new problems. 
