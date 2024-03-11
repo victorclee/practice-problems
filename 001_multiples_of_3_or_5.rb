@@ -26,25 +26,23 @@
 class SumOfMultiples
   attr_reader :first_num, :second_num
 
-  def initialize(first_num, second_num)
-    @first_num = first_num
-    @second_num = second_num
-    @i = 0
+  # moved parameters to find_sum_of_multiples method, makes more sense there
+  def initialize
     @sum = 0
   end
 
-  def find_sum
-    while @i < 1000 do
-      if @i % first_num == 0
-        @sum += @i
-      elsif @i % second_num == 0
-        @sum += @i
+  # renamed method to be more descriptive
+  def find_sum_of_multiples(first_num, second_num, max_limit)
+    i = 0
+    while i < max_limit do
+      if i % first_num == 0
+        @sum += i
+      elsif i % second_num == 0
+        @sum += i
       end
-      @i += 1
+      i += 1
     end
-
-    p @sum
+    # need to return @sum at the end
+    @sum
   end
 end
-
-SumOfMultiples.new(3, 5).find_sum
