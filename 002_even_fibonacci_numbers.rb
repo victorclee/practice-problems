@@ -3,30 +3,31 @@
 # 1,2,3,5,8,13,21,34,55,89,...
 
 # By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms.
-def fib_below_4000000
-  fibbonacci_numbers = [1,2]
-  next_number = 0
-  while next_number < 4000000 do
-    index_last = fibbonacci_numbers.count - 1
-    index_second_to_last = index_last - 1
+# def fib_below_4000000
+#   fibbonacci_numbers = [1,2]
+#   next_number = 0
+#   while next_number < 4000000 do
+#     index_last = fibbonacci_numbers.count - 1
+#     index_second_to_last = index_last - 1
   
-    next_number = fibbonacci_numbers[index_last] + fibbonacci_numbers[index_second_to_last]
+#     next_number = fibbonacci_numbers[index_last] + fibbonacci_numbers[index_second_to_last]
   
-    fibbonacci_numbers << next_number
-  end
-  fibbonacci_numbers
-end
+#     fibbonacci_numbers << next_number
+#   end
+#   fibbonacci_numbers
+# end
 
+# def sum_of(numbers)
+#   sum = 0 
+#   numbers.each do |num|
+#     if num < 4000000 && num % 2 == 0
+#       sum += num
+#     end
+#   end
+#   sum
+# end
 
+# puts sum_of fib_below_4000000
 
-def sum_of(numbers)
-  sum = 0 
-  numbers.each do |num|
-    if num < 4000000 && num % 2 == 0
-      sum += num
-    end
-  end
-  sum
-end
+# OO refactor
 
-puts sum_of fib_below_4000000
