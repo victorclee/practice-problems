@@ -76,4 +76,11 @@ https://www.geeksforgeeks.org/difference-between-docker-image-and-container/
 
 In Mario's words: "Image is the mold, container is the dough."
 
+What is a Bundler? What does it do?
+https://bundler.io/#:~:text=Bundler%20provides%20a%20consistent%20environment,as%20simple%20as%20bundle%20install%20.
+
+What does bundle exec do?
+https://bundler.io/guides/getting_started.html#getting-started
+https://reintech.io/term/bundle-exec-running-commands-bundler-managed-environment
+
 Today's practice: Inheritance vs Composition
