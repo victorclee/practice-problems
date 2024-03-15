@@ -89,7 +89,10 @@ end
 red_five = X_Wing.new
 mithel = TIE_Fighter.new
 
+red_five.thrusters # unmodified method, retention of shared functionality
 red_five.laser_cannons
 red_five.foils
+
+mithel.thrusters # unmodified method, retention of shared functionality
 mithel.laser_cannons
 mithel.foils
