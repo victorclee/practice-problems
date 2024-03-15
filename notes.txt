@@ -59,3 +59,19 @@ Functional vs procedural
 https://stackoverflow.com/questions/3432085/how-to-understand-the-output-of-time-command
 
 For next week, refactor existing solutions into classes. Make them readable. Continue with new problems. 
+
+3/15/2024
+Topics to dig deeper:
+what is $LOAD_PATH
+https://medium.com/@aayushsharda/why-to-use-load-path-in-ruby-ce971bc1d864#:~:text=%24LOAD_PATH%20is%20an%20array%20of,a%20dependency%20on%20certain%20library.
+
+What is an image?
+https://www.reddit.com/r/docker/comments/6wilmr/i_am_new_to_docker_what_is_an_image/
+
+What is a container?
+https://www.docker.com/resources/what-container/
+
+What's the difference between an image and a container?
+https://www.geeksforgeeks.org/difference-between-docker-image-and-container/
+
+In Mario's words: "Image is the mold, container is the dough."
