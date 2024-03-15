@@ -5,9 +5,9 @@
 smallest_multiple_one_through_ten = 2520
 result = 2520
 
-until (11..20).all? {|num| result % num == 0}
+until (11..20).all? { |num| result % num == 0 }
 
-  result = result + smallest_multiple_one_through_ten
+  result += smallest_multiple_one_through_ten
 end
 
 # 232792560 passed

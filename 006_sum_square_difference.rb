@@ -10,10 +10,10 @@ first_one_hundred = (1..100).to_a
 sum_of_squares = 0
 
 first_one_hundred.each do |num|
-  sum_of_squares += num ** 2
+  sum_of_squares += num**2
 end
 
-square_of_the_sum = first_one_hundred.sum ** 2
+square_of_the_sum = first_one_hundred.sum**2
 
 p square_of_the_sum - sum_of_squares
 

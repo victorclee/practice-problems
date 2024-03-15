@@ -75,3 +75,5 @@ What's the difference between an image and a container?
 https://www.geeksforgeeks.org/difference-between-docker-image-and-container/
 
 In Mario's words: "Image is the mold, container is the dough."
+
+Today's practice: Inheritance vs Composition

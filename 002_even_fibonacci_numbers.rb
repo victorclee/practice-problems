@@ -9,16 +9,16 @@
 #   while next_number < 4000000 do
 #     index_last = fibbonacci_numbers.count - 1
 #     index_second_to_last = index_last - 1
-  
+
 #     next_number = fibbonacci_numbers[index_last] + fibbonacci_numbers[index_second_to_last]
-  
+
 #     fibbonacci_numbers << next_number
 #   end
 #   fibbonacci_numbers
 # end
 
 # def sum_of(numbers)
-#   sum = 0 
+#   sum = 0
 #   numbers.each do |num|
 #     if num < 4000000 && num % 2 == 0
 #       sum += num
@@ -30,4 +30,3 @@
 # puts sum_of fib_below_4000000
 
 # OO refactor
-

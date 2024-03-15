@@ -18,8 +18,7 @@
 # 233168 passed
 # https://projecteuler.net/thread=1;page=9#last
 
-# This one seemed simple, but still took an hour. I even needed a refresher on how to write a simple while loop 
-
+# This one seemed simple, but still took an hour. I even needed a refresher on how to write a simple while loop
 
 # OO refactor
 
@@ -34,7 +33,7 @@ class SumOfMultiples
   # renamed method to be more descriptive
   def find_sum_of_multiples(first_num, second_num, max_limit)
     i = 0
-    while i < max_limit do
+    while i < max_limit
       if i % first_num == 0
         @sum += i
       elsif i % second_num == 0
