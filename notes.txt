@@ -83,4 +83,7 @@ What does bundle exec do?
 https://bundler.io/guides/getting_started.html#getting-started
 https://reintech.io/term/bundle-exec-running-commands-bundler-managed-environment
 
+What are nested classes for?
+https://stackoverflow.com/questions/6195661/when-to-use-nested-classes-and-classes-nested-in-modules
+
 Today's practice: Inheritance vs Composition
