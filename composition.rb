@@ -1,1 +1,0 @@
-# Putting composition into practice
