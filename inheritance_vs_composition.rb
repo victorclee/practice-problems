@@ -1,10 +1,10 @@
 # Putting composition into practice
 # References
 # https://medium.com/@MinimalGhost/inheritance-versus-composition-in-ruby-4ff52beb5e86
-# https://medium.com/aviabird/ruby-composition-over-inheritance-3ff786ad9e5d
+# https://medium.com/aviabird/ruby-composition-over-inheritance-3ff786ad9e5d This post might be questionable
 
 # Inheritance
-class Vader
+class VaderLines
   def dark_side
     puts "I find yoour lack of faith disturbing"
   end
@@ -14,85 +14,78 @@ class Vader
   end
 end
 
-class Luke < Vader
+class LukeLines
   def i_am_your_father
     puts "No... That's not true!! That's impossible!!"
-    # super invokes the original inherited behavior
-    super
     puts "NOOOOOOOOOOO"
   end
 end
 
-father = Vader.new
-son = Luke.new
+class Character
+  def initialize(lines)
+    @lines = lines
+  end
 
-father.dark_side
-son.dark_side
+  def i_am_your_father
+    @lines.i_am_your_father
+  end
 
-father.i_am_your_father
-son.i_am_your_father
+  def dark_side
+    @lines.dark_side
+  end
+end
+
+luke = Character.new(LukeLines.new)
+vader = Character.new(VaderLines.new)
+
+luke.i_am_your_father
+vader.dark_side
+
+
+# father = Vader.new
+# son = Luke.new
+
+# father.dark_side
+# son.dark_side
+
+# father.i_am_your_father
+# son.i_am_your_father
 
 # Composition
 # A technique by which classes may achieve polymorphic behavior and code reuse by containing other classes that implement the desired functionality instead of through inheritance.
 # Ruby uses Modules and a concept called mixins. A Module is essentially a named, organized collection of methods. Mixins are the way in which we require these Modules into our Classes as needed. The methods of a Module can be Class methods or Instance methods, depending on how you add the mixin to the Class (extend and include, respectively).
 
-module SpaceShipFlight
-  def thrusters
-    puts "SPACESHIP has standard thrusters"
-  end
 
-  def foils
-    puts "SPACESHIP has standard foils"
-  end
 
-  def navigation_system
-    puts "SPACESHIP has standard navigation system"
-  end
-end
-
-module SpaceShipWeapons
-  def torpedoes
-    puts "SPACESHIP has torpedoes"
-  end
-
-  def laser_cannons
-    puts "SPACESHIP has laser cannons"
-  end
-end
-
-class X_Wing
-  include SpaceShipFlight
-  include SpaceShipWeapons
-
-  def foils
-    puts "X-Wing Fighter has S-foils"
-  end
-
-  def laser_cannons
-    puts "X-Wing Fighter has RED laser cannons"
-  end
-end
-
-class TIE_Fighter
-  include SpaceShipFlight
-  include SpaceShipWeapons
-
-  def foils
-    puts "TIE Fighter has vertical foils"
-  end
-
+class TIE_Fighter_weapons
   def laser_cannons
     puts "TIE Fighter has GREEN laser cannons"
   end
 end
 
-red_five = X_Wing.new
-mithel = TIE_Fighter.new
+class X_Wing_weapons
+  def laser_cannons
+    puts "X-Wing Fighter has RED laser cannons"
+  end
+end
 
-red_five.thrusters # unmodified method, retention of shared functionality
+class Spaceship
+  def initialize(weapon_strategy)
+    @weapon_strategy = weapon_strategy
+  end
+
+  def laser_cannons
+    puts @weapon_strategy.laser_cannons
+  end
+end
+
+red_five = Spaceship.new(X_Wing_weapons.new)
+mithel = Spaceship.new(TIE_Fighter_weapons.new)
+
+
 red_five.laser_cannons
-red_five.foils
 
-mithel.thrusters # unmodified method, retention of shared functionality
+
+
 mithel.laser_cannons
-mithel.foils
+
