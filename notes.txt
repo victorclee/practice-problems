@@ -87,3 +87,7 @@ What are nested classes for?
 https://stackoverflow.com/questions/6195661/when-to-use-nested-classes-and-classes-nested-in-modules
 
 Today's practice: Inheritance vs Composition
+
+03/20/2024
+What's the difference between protected and private methods?
+https://medium.com/rubycademy/private-protected-a-matter-of-message-1a88b10acbf2
