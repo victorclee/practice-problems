@@ -28,6 +28,12 @@ class HybridLandingGear
   end
 end
 
+class HybridThrusters
+  def propel
+    puts "hybrid thrusters"
+  end
+end
+
 class TieFighterWeapons
   def fire
     puts "TieFighter laser"
@@ -69,6 +75,17 @@ class TieFighter
   end
 end
 
+class HybridFighter
+  attr_reader :wings, :weapons, :thrusters, :landing_gear
+
+  def initialize(wings: TieFighterWings.new, weapons: XWingWeapons.new, landing_gear: HybridLandingGear.new, thrusters: HybridThrusters.new)
+    @wings = wings
+    @weapons = weapons
+    @landing_gear = landing_gear
+    @thrusters = thrusters
+  end
+end
+
 XWing.new.wings.fly
 XWing.new.weapons.fire
 XWing.new.thrusters.propel
@@ -78,3 +95,8 @@ TieFighter.new.wings.fly
 TieFighter.new.weapons.fire
 TieFighter.new.thrusters.propel
 TieFighter.new.landing_gear.land
+
+HybridFighter.new.wings.fly
+HybridFighter.new.weapons.fire
+HybridFighter.new.thrusters.propel
+HybridFighter.new.landing_gear.land
