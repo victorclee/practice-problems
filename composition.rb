@@ -58,7 +58,23 @@ class XWing
   end
 end
 
+class TieFighter
+  attr_reader :wings, :weapons, :thrusters, :landing_gear
+
+  def initialize(wings: TieFighterWings.new, weapons: TieFighterWeapons.new, landing_gear: GeneralLandingGear.new, thrusters: TieFighterThrusters.new)
+    @wings = wings
+    @weapons = weapons
+    @landing_gear = landing_gear
+    @thrusters = thrusters
+  end
+end
+
 XWing.new.wings.fly
 XWing.new.weapons.fire
 XWing.new.thrusters.propel
 XWing.new.landing_gear.land
+
+TieFighter.new.wings.fly
+TieFighter.new.weapons.fire
+TieFighter.new.thrusters.propel
+TieFighter.new.landing_gear.land
