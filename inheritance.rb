@@ -1,9 +1,9 @@
-# WHat problem are we solving? 
+# WHat problem are we solving?
 
 class JetFighter
   def landing_gear
     puts "big_wheels"
-  end  
+  end
 end
 
 class XWing < JetFighter
@@ -27,7 +27,7 @@ class TieFighter < JetFighter
 end
 
 class HybridXWingTieFighter < JetFighter
-  # shoot like a tie fighter 
+  # shoot like a tie fighter
   # fly like a x wing
 
   def weapon
@@ -38,8 +38,10 @@ class HybridXWingTieFighter < JetFighter
     puts "xwing wings"
   end
 
+  def landing_gear
+    puts "hybrid landing gear"
+  end
 end
-
 
 XWing.new.weapon
 XWing.new.wings
@@ -48,3 +50,7 @@ XWing.new.landing_gear
 TieFighter.new.weapon
 TieFighter.new.wings
 TieFighter.new.landing_gear
+
+HybridXWingTieFighter.new.weapon
+HybridXWingTieFighter.new.wings
+HybridXWingTieFighter.new.landing_gear
