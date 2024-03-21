@@ -86,17 +86,23 @@ class HybridFighter
   end
 end
 
-XWing.new.wings.fly
-XWing.new.weapons.fire
-XWing.new.thrusters.propel
-XWing.new.landing_gear.land
+x_wing = XWing.new
 
-TieFighter.new.wings.fly
-TieFighter.new.weapons.fire
-TieFighter.new.thrusters.propel
-TieFighter.new.landing_gear.land
+x_wing.wings.fly
+x_wing.weapons.fire
+x_wing.thrusters.propel
+x_wing.landing_gear.land
 
-HybridFighter.new.wings.fly
-HybridFighter.new.weapons.fire
-HybridFighter.new.thrusters.propel
-HybridFighter.new.landing_gear.land
+tie_fighter = TieFighter.new
+
+tie_fighter.wings.fly
+tie_fighter.weapons.fire
+tie_fighter.thrusters.propel
+tie_fighter.landing_gear.land
+
+hybrid_fighter = HybridFighter.new
+
+hybrid_fighter.wings.fly
+hybrid_fighter.weapons.fire
+hybrid_fighter.thrusters.propel
+hybrid_fighter.landing_gear.land
