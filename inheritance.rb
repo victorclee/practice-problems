@@ -43,14 +43,20 @@ class HybridXWingTieFighter < JetFighter
   end
 end
 
-XWing.new.weapon
-XWing.new.wings
-XWing.new.landing_gear
+x_wing = XWing.new
 
-TieFighter.new.weapon
-TieFighter.new.wings
-TieFighter.new.landing_gear
+x_wing.weapon
+x_wing.wings
+x_wing.landing_gear
 
-HybridXWingTieFighter.new.weapon
-HybridXWingTieFighter.new.wings
-HybridXWingTieFighter.new.landing_gear
+tie_fighter = TieFighter.new
+
+tie_fighter.weapon
+tie_fighter.wings
+tie_fighter.landing_gear
+
+hybrid_fighter = HybridXWingTieFighter.new
+
+hybrid_fighter.weapon
+hybrid_fighter.wings
+hybrid_fighter.landing_gear
