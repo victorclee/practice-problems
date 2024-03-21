@@ -91,3 +91,15 @@ Today's practice: Inheritance vs Composition
 03/20/2024
 What's the difference between protected and private methods?
 https://medium.com/rubycademy/private-protected-a-matter-of-message-1a88b10acbf2
+
+
+03/21/2024
+notes:
+diagram demonstration of inheritance pyramid 
+
+todo:
+Learn good diagramming tools. 
+Find a good auto diagramming tool
+
+action item:
+Continue with practicing flocking on the different notice_of_ in Kin codebase
