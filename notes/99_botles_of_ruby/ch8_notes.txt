@@ -1,1 +1,7 @@
 One of the most fundamental concepts in OO is to isolate the behavior you want to vary.
+
+High level modules vs low level modules
+
+High level can be stakeholder interest
+
+Low level implementation, eg. differnet kinds of payment processor

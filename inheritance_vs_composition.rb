@@ -1,7 +1,7 @@
 # Putting composition into practice
 # References
 # https://medium.com/@MinimalGhost/inheritance-versus-composition-in-ruby-4ff52beb5e86
-# https://medium.com/aviabird/ruby-composition-over-inheritance-3ff786ad9e5d This post's title might be questionable. It's talking about mixins
+# https://medium.com/aviabird/ruby-composition-over-inheritance-3ff786ad9e5d This post is questionable. It's talking about mixins
 
 # Inheritance
 class VaderLines
