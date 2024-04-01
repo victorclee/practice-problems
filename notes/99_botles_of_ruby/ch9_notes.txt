@@ -1,0 +1,3 @@
+Unit tests are meant to test the public API of a single class
+
+A general approach to testing should be to create a unit test for every class, and to test every method in the class's public API
