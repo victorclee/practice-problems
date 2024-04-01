@@ -1,3 +1,6 @@
 Unit tests are meant to test the public API of a single class
 
 A general approach to testing should be to create a unit test for every class, and to test every method in the class's public API
+
+Faux unit tests that reach out to cover distant collaborators become increasingly unhelpful to hte next programmer. The code could break quite far from the origin of the problem.
+When something goes wrong, it's the unite tests that provide an error message near the offending line of code. They narrow the set of potential code culprits. 
