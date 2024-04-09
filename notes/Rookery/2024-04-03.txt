@@ -1,1 +1,3 @@
 when calculating money, DO NOT use float, use a money library
+
+Presenter marries presentation logic to business logic and should be business-logic agnostic.

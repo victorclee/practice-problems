@@ -103,3 +103,12 @@ Find a good auto diagramming tool
 
 action item:
 Continue with practicing flocking on the different notice_of_ in Kin codebase
+
+04/08/2024
+1:1 with Curtis Hiller
+Maintainability should be one of the driving paradigms of writing code. 
+Refactor when appropriate, it is not necessary to boil the oceean to refactor. When working on a ticket, make the file better than it was.
+
+04/09/2024
+Victory of the day:
+Found a duplicate spec file for the document payload serializer. Confirmed with Jeremy Ward and cleaned up the duplicate. 
