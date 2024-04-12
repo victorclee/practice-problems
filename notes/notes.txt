@@ -117,3 +117,6 @@ Found a duplicate spec file for the document payload serializer. Confirmed with 
 Get started with Rails Engine
 https://guides.rubyonrails.org/engines.html
 
+The C4 model for visualising software architecture
+Context, Containers, Components, and Code
+https://c4model.com/
