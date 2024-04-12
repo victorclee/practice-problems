@@ -112,3 +112,8 @@ Refactor when appropriate, it is not necessary to boil the oceean to refactor. W
 04/09/2024
 Victory of the day:
 Found a duplicate spec file for the document payload serializer. Confirmed with Jeremy Ward and cleaned up the duplicate. 
+
+04/12/2024
+Get started with Rails Engine
+https://guides.rubyonrails.org/engines.html
+
