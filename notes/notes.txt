@@ -120,3 +120,30 @@ https://guides.rubyonrails.org/engines.html
 The C4 model for visualising software architecture
 Context, Containers, Components, and Code
 https://c4model.com/
+
+04/19/2024
+When intent is clear, writing a three line test is ideal. The 3A arrange, act, assert. Writing EXPECT at the end is more natural. 
+
+When testing, move long data into fixtures.
+https://github.com/kin/kin-coding-challenges/blob/master/submissions/antonio-bar/spec/policy_ocr_spec.rb#L13
+
+HTTP request params
+Serialization and deserialization
+https://appmap.io/blog/2022/08/17/how-to-safely-deserialize-data-in-ruby-on-rails/
+https://stackoverflow.com/questions/19542796/serialize-de-serialize-objects-via-http-ruby-no-ror
+https://blog.appsignal.com/2019/03/26/object-marshalling-in-ruby.html
+
+
+JSON
+https://ruby-doc.org/stdlib-2.6.4/libdoc/json/rdoc/JSON.html
+https://ruby-doc.org/stdlib-3.0.2/libdoc/json/rdoc/JSON.html#method-i-dump
+
+Object literals
+https://stackoverflow.com/questions/12632278/ruby-object-literals-ala-javascript
+
+Ruby to_h method is only for Array
+https://www.geeksforgeeks.org/ruby-array-to_h-function/
+
+HTTP request
+https://www.rfc-editor.org/rfc/rfc9110.html#name-syntax-notation
+https://kinsta.com/knowledgebase/what-is-an-http-request/
