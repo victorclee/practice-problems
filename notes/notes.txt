@@ -147,3 +147,15 @@ https://www.geeksforgeeks.org/ruby-array-to_h-function/
 HTTP request
 https://www.rfc-editor.org/rfc/rfc9110.html#name-syntax-notation
 https://kinsta.com/knowledgebase/what-is-an-http-request/
+
+Document ERD Discussion
+
+A good engineer is who understands the domain
+1. to observe data quality
+2. get to a state where we can trust our data
+
+Make the data under control. one big issue is we spam create documents.
+Go into looker, pratice sql, pluralsight course
+
+Ask product if we can delete old data
+Get along with feeling uncomfortable
